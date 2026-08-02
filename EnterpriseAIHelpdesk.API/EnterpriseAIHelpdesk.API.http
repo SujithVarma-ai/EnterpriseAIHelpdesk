@@ -1,0 +1,6 @@
+@EnterpriseAIHelpdesk.API_HostAddress = http://localhost:5244
+
+GET {{EnterpriseAIHelpdesk.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

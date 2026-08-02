@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "EnterpriseAIHelpdesk.Application/1.0.0": {
+        "dependencies": {
+          "EnterpriseAIHelpdesk.Domain": "1.0.0"
+        },
+        "runtime": {
+          "EnterpriseAIHelpdesk.Application.dll": {}
+        }
+      },
+      "EnterpriseAIHelpdesk.Domain/1.0.0": {
+        "runtime": {
+          "EnterpriseAIHelpdesk.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EnterpriseAIHelpdesk.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EnterpriseAIHelpdesk.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

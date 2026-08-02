@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="EnterpriseAIHelpdesk.API/EnterpriseAIHelpdesk.API.csproj" />
+  <Project Path="EnterpriseAIHelpdesk.Application/EnterpriseAIHelpdesk.Application.csproj" />
+  <Project Path="EnterpriseAIHelpdesk.Domain/EnterpriseAIHelpdesk.Domain.csproj" />
+  <Project Path="EnterpriseAIHelpdesk.Infrastructure/EnterpriseAIHelpdesk.Infrastructure.csproj" />
+  <Project Path="EnterpriseAIHelpdesk.Persistence/EnterpriseAIHelpdesk.Persistence.csproj" />
+  <Project Path="EnterpriseAIHelpdesk.Tests/EnterpriseAIHelpdesk.Tests.csproj" />
+</Solution>

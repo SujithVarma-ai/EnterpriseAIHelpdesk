@@ -1,0 +1,15 @@
+C:\Users\nraja\EnterpriseAIHelpdesk\EnterpriseAIHelpdesk.Application\bin\Debug\net9.0\EnterpriseAIHelpdesk.Application.deps.json
+C:\Users\nraja\EnterpriseAIHelpdesk\EnterpriseAIHelpdesk.Application\bin\Debug\net9.0\EnterpriseAIHelpdesk.Application.dll
+C:\Users\nraja\EnterpriseAIHelpdesk\EnterpriseAIHelpdesk.Application\bin\Debug\net9.0\EnterpriseAIHelpdesk.Application.pdb
+C:\Users\nraja\EnterpriseAIHelpdesk\EnterpriseAIHelpdesk.Application\obj\Debug\net9.0\EnterpriseAIHelpdesk.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nraja\EnterpriseAIHelpdesk\EnterpriseAIHelpdesk.Application\obj\Debug\net9.0\EnterpriseAIHelpdesk.Application.AssemblyInfoInputs.cache
+C:\Users\nraja\EnterpriseAIHelpdesk\EnterpriseAIHelpdesk.Application\obj\Debug\net9.0\EnterpriseAIHelpdesk.Application.AssemblyInfo.cs
+C:\Users\nraja\EnterpriseAIHelpdesk\EnterpriseAIHelpdesk.Application\obj\Debug\net9.0\EnterpriseAIHelpdesk.Application.csproj.CoreCompileInputs.cache
+C:\Users\nraja\EnterpriseAIHelpdesk\EnterpriseAIHelpdesk.Application\obj\Debug\net9.0\EnterpriseAIHelpdesk.Application.dll
+C:\Users\nraja\EnterpriseAIHelpdesk\EnterpriseAIHelpdesk.Application\obj\Debug\net9.0\refint\EnterpriseAIHelpdesk.Application.dll
+C:\Users\nraja\EnterpriseAIHelpdesk\EnterpriseAIHelpdesk.Application\obj\Debug\net9.0\EnterpriseAIHelpdesk.Application.pdb
+C:\Users\nraja\EnterpriseAIHelpdesk\EnterpriseAIHelpdesk.Application\obj\Debug\net9.0\ref\EnterpriseAIHelpdesk.Application.dll
+C:\Users\nraja\EnterpriseAIHelpdesk\EnterpriseAIHelpdesk.Application\bin\Debug\net9.0\EnterpriseAIHelpdesk.Domain.dll
+C:\Users\nraja\EnterpriseAIHelpdesk\EnterpriseAIHelpdesk.Application\bin\Debug\net9.0\EnterpriseAIHelpdesk.Domain.pdb
+C:\Users\nraja\EnterpriseAIHelpdesk\EnterpriseAIHelpdesk.Application\obj\Debug\net9.0\EnterpriseAIHelpdesk.Application.csproj.AssemblyReference.cache
+C:\Users\nraja\EnterpriseAIHelpdesk\EnterpriseAIHelpdesk.Application\obj\Debug\net9.0\Enterpri.31A2376A.Up2Date
