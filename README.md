@@ -35,6 +35,34 @@ This project is built using **Clean Architecture** and demonstrates enterprise-l
 
 ---
 
+## 🏗️ Architecture
+
+```
+                ASP.NET Core Web API
+                       │
+        ┌──────────────┼──────────────┐
+        ▼              ▼              ▼
+ SQL Server      Ollama AI      JWT Authentication
+        │
+        ▼
+ Entity Framework Core
+```
+
+The project follows **Clean Architecture**:
+
+```
+EnterpriseAIHelpdesk
+│
+├── EnterpriseAIHelpdesk.API
+├── EnterpriseAIHelpdesk.Application
+├── EnterpriseAIHelpdesk.Domain
+├── EnterpriseAIHelpdesk.Infrastructure
+├── EnterpriseAIHelpdesk.Persistence
+└── EnterpriseAIHelpdesk.Tests
+```
+
+---
+
 ## 🛠️ Tech Stack
 
 ### Backend
