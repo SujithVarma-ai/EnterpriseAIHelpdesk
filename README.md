@@ -155,7 +155,7 @@ GET  /api/tickets/{ticketId}/comments
 ### AI Summary
 
 ```
-GET /api/summary/{ticketId}
+GET /api/Ticket/{id}/summary
 ```
 
 ---
