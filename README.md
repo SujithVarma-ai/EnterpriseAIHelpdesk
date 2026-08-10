@@ -232,7 +232,7 @@ dotnet run --project EnterpriseAIHelpdesk.API
 Open Swagger:
 
 ```
-https://localhost:5001/swagger
+http://localhost:5244/swagger
 ```
 
 ---
