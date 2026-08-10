@@ -63,7 +63,9 @@ EnterpriseAIHelpdesk
 ├── EnterpriseAIHelpdesk.Domain
 ├── EnterpriseAIHelpdesk.Infrastructure
 ├── EnterpriseAIHelpdesk.Persistence
-└── EnterpriseAIHelpdesk.Tests
+├── EnterpriseAIHelpdesk.Tests
+│
+└── frontend
 ```
 
 ---
