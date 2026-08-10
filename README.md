@@ -71,6 +71,14 @@ EnterpriseAIHelpdesk
 - Entity Framework Core
 - SQL Server
 
+### Frontend
+
+- React
+- React Router
+- JavaScript
+- HTML
+- CSS
+
 ### Authentication
 - JWT
 - ASP.NET Identity Password Hashing
