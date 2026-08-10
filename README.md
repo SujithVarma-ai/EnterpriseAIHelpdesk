@@ -98,13 +98,15 @@ EnterpriseAIHelpdesk
 
 ## 📂 Current Modules
 
-- ✅ Authentication
-- ✅ Authorization
+- ✅ JWT Authentication & Authorization
+- ✅ React Frontend
 - ✅ Ticket Management
+- ✅ Ticket Details
 - ✅ Comments
 - ✅ AI Category Prediction
 - ✅ AI Priority Prediction
 - ✅ AI Ticket Summarization
+- ✅ React ↔ ASP.NET Core API Integration
 
 ---
 
