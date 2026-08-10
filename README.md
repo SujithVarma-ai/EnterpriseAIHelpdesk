@@ -192,6 +192,13 @@ EnterpriseAIHelpdesk
 
 ## ⚙️ Getting Started
 
+### Run Ollama
+
+Install Ollama and pull the Llama 3.2 model:
+
+```bash
+ollama pull llama3.2
+
 ### Clone the repository
 
 ```bash
