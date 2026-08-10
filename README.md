@@ -77,7 +77,6 @@ EnterpriseAIHelpdesk
 - SQL Server
 
 ### Frontend
-
 - React
 - React Router
 - JavaScript
@@ -85,8 +84,9 @@ EnterpriseAIHelpdesk
 - CSS
 
 ### Authentication
-- JWT
-- ASP.NET Identity Password Hashing
+- JWT Authentication
+- Password Hashing with `PasswordHasher<T>`
+- Role-Based Authorization
 
 ### AI
 - Ollama
