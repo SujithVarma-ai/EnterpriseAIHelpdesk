@@ -38,14 +38,19 @@ This project is built using **Clean Architecture** and demonstrates enterprise-l
 ## 🏗️ Architecture
 
 ```
-                ASP.NET Core Web API
-                       │
-        ┌──────────────┼──────────────┐
-        ▼              ▼              ▼
- SQL Server      Ollama AI      JWT Authentication
-        │
-        ▼
- Entity Framework Core
+                  React Frontend
+                         │
+                         │ REST API
+                         ▼
+                 ASP.NET Core Web API
+                         │
+          ┌──────────────┼──────────────┐
+          ▼              ▼              ▼
+     SQL Server      Ollama AI      JWT Auth
+          │              │
+          ▼              ▼
+   Entity Framework   Llama 3.2
+          Core
 ```
 
 The project follows **Clean Architecture**:
