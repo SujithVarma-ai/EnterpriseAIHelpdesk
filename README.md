@@ -103,7 +103,6 @@ EnterpriseAIHelpdesk
 ## 🚀 Future Roadmap
 
 - 📚 RAG Knowledge Assistant
-- ⚛️ React Frontend
 - 🐳 Docker
 - ☁️ Azure Deployment
 - 🚀 GitHub Actions CI/CD
@@ -223,5 +222,3 @@ https://localhost:5001/swagger
 - GitHub: https://github.com/SujithVarma-ai
 
 ---
-
-## ⭐ If you found this project interesting, consider giving it a star!
