@@ -38,7 +38,9 @@ public class AuthService : IAuthService
         {
             Name = registerDto.Name,
             Email = registerDto.Email,
-            PasswordHash = _passwordHasher.HashPassword(null!, registerDto.Password)
+            PasswordHash = _passwordHasher.HashPassword(
+                null!,
+                registerDto.Password)
         };
 
     // Save to database

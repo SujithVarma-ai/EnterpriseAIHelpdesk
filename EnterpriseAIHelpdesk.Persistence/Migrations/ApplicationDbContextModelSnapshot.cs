@@ -47,7 +47,7 @@ namespace EnterpriseAIHelpdesk.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Attachments");
+                    b.ToTable("Attachments", (string)null);
                 });
 
             modelBuilder.Entity("EnterpriseAIHelpdesk.Domain.Entities.Comment", b =>
@@ -78,7 +78,7 @@ namespace EnterpriseAIHelpdesk.Persistence.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Comments");
+                    b.ToTable("Comments", (string)null);
                 });
 
             modelBuilder.Entity("EnterpriseAIHelpdesk.Domain.Entities.Ticket", b =>
@@ -119,7 +119,7 @@ namespace EnterpriseAIHelpdesk.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Tickets");
+                    b.ToTable("Tickets", (string)null);
                 });
 
             modelBuilder.Entity("EnterpriseAIHelpdesk.Domain.Entities.User", b =>
@@ -151,7 +151,7 @@ namespace EnterpriseAIHelpdesk.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("EnterpriseAIHelpdesk.Domain.Entities.Comment", b =>

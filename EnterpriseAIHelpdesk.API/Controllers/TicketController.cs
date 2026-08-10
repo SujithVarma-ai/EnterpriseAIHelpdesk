@@ -69,4 +69,17 @@ public class TicketController : ControllerBase
 
         return Ok("Ticket Deleted Successfully");
     }
+        [HttpGet("{id}/summary")]
+    public async Task<IActionResult> GetSummary(Guid id)
+    {
+        var summary = await _ticketService.SummarizeTicketAsync(id);
+
+        if (summary == null)
+            return NotFound();
+
+        return Ok(new
+        {
+            Summary = summary
+        });
+    }
 }

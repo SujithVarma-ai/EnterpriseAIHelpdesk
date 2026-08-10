@@ -152,4 +152,33 @@ public class TicketService : ITicketService
 
         return true;
     }
+    public async Task<string?> SummarizeTicketAsync(Guid id)
+    {
+        var userIdClaim = _httpContextAccessor.HttpContext?.User
+            ?.FindFirstValue(ClaimTypes.NameIdentifier);
+
+        if (string.IsNullOrEmpty(userIdClaim))
+            return null;
+
+        var userId = Guid.Parse(userIdClaim);
+
+        var ticket = await _context.Tickets
+            .FirstOrDefaultAsync(t =>
+                t.Id == id &&
+                t.CreatedByUserId == userId);
+
+        if (ticket == null)
+            return null;
+
+        var comments = await _context.Comments
+            .Where(c => c.TicketId == id)
+            .OrderBy(c => c.CreatedAt)
+            .Select(c => c.Message)
+            .ToListAsync();
+
+        return await _aiService.SummarizeTicketAsync(
+            ticket.Title,
+            ticket.Description,
+            comments);
+    }
 }

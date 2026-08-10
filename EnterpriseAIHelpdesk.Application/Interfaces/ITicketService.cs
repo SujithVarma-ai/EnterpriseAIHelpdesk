@@ -14,4 +14,5 @@ public interface ITicketService
 
     Task<bool> DeleteTicketAsync(Guid id);
     Task<bool> AssignTicketAsync(Guid ticketId, Guid assignedToUserId);
+    Task<string?> SummarizeTicketAsync(Guid id);
 }
