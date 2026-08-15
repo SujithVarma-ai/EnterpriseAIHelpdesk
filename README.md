@@ -280,7 +280,7 @@ dotnet run --project EnterpriseAIHelpdesk.API
 The backend runs at:
 http://localhost:5244
 
-Swagger
+Swagger:
 http://localhost:5244/swagger
 
 ### Start Frontend
@@ -295,6 +295,13 @@ npm run dev
 
 The React frontend runs at:
 http://localhost:5173
+
+### Database
+
+The backend connects to SQL Server using the configured connection string.
+
+For the Docker SQL Server instance used in this project, the host connection is:
+localhost:14333
 
 ### Clone the repository
 
