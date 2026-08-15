@@ -101,6 +101,10 @@ EnterpriseAIHelpdesk
 - Git
 - GitHub
 
+### DevOps & Deployment
+- Docker
+- Docker Compose
+
 ---
 
 ## 📂 Current Modules
