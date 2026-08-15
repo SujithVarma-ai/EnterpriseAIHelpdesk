@@ -246,7 +246,7 @@ EnterpriseAIHelpdesk
                   through host.docker.internal
 ```
 
-## Running the Application Without Docker
+# Running the Application Without Docker
 
 ```text
                 React Frontend
@@ -302,6 +302,18 @@ The backend connects to SQL Server using the configured connection string.
 
 For the Docker SQL Server instance used in this project, the host connection is:
 localhost:14333
+
+# Running the Application With Docker
+
+```text
+                Dockerfile
+                    │
+                    ▼
+               Docker Image
+                    │
+                    ▼
+             Docker Container
+```
 
 ### Clone the repository
 
