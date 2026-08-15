@@ -359,6 +359,15 @@ Check the image:
 docker images
 ```
 
+### Run the Frontend Container
+
+```bash
+docker run -d --name enterprise-helpdesk-frontend -p 5173:80 enterprise-helpdesk-frontend
+```
+
+The frontend is available at:
+http://localhost:5173
+
 ### Clone the repository
 
 ```bash
