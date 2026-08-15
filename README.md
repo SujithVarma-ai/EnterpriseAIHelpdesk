@@ -315,6 +315,20 @@ localhost:14333
              Docker Container
 ```
 
+### Build the Backend Image
+
+From the project root:
+
+```bash
+docker build -t enterprise-helpdesk-api -f EnterpriseAIHelpdesk.API/Dockerfile .
+```
+
+Check the image:
+
+```bash
+docker images
+```
+
 ### Clone the repository
 
 ```bash
