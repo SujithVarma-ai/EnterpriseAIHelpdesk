@@ -261,12 +261,23 @@ EnterpriseAIHelpdesk
                     Ollama
 ```
 
+### Start Ollama
+
+Make sure Ollama is installed and the Llama 3.2 model is available:
+
+```bash
+ollama pull llama3.2
+```
+
+Start Ollama if it is not already running.
+
 ### Run Ollama
 
 Install Ollama and pull the Llama 3.2 model:
 
 ```bash
 ollama pull llama3.2
+```
 
 ### Clone the repository
 
