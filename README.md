@@ -271,13 +271,17 @@ ollama pull llama3.2
 
 Start Ollama if it is not already running.
 
-### Run Ollama
-
-Install Ollama and pull the Llama 3.2 model:
+### Start Backend
 
 ```bash
-ollama pull llama3.2
+dotnet run --project EnterpriseAIHelpdesk.API
 ```
+
+The backend runs at:
+http://localhost:5244
+
+Swagger
+http://localhost:5244/swagger
 
 ### Clone the repository
 
