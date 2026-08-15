@@ -395,6 +395,11 @@ Check all running containers:
 docker ps
 ```
 
+Expected containers:
+enterprise-helpdesk-sql
+enterprise-helpdesk-api
+enterprise-helpdesk-frontend
+
 ### Clone the repository
 
 ```bash
@@ -418,22 +423,6 @@ dotnet restore
 ```bash
 dotnet ef database update
 ```
-
-### Run the application
-
-```bash
-dotnet run --project EnterpriseAIHelpdesk.API
-```
-
-Open Swagger:
-
-```
-http://localhost:5244/swagger
-```
-
----
-
-
 
 ## 👨‍💻 Author
 
