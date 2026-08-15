@@ -329,6 +329,12 @@ Check the image:
 docker images
 ```
 
+### Run the Backend Container
+
+```bash
+docker run -d --name enterprise-helpdesk-api -p 5244:8080 enterprise-helpdesk-api
+```
+
 ### Clone the repository
 
 ```bash
