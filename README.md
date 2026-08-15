@@ -197,6 +197,44 @@ EnterpriseAIHelpdesk
 
 ## ⚙️ Getting Started
 
+
+## 🐳 Docker Deployment
+
+The Enterprise AI Helpdesk is containerized using Docker to provide a consistent and isolated environment for the application.
+
+The project uses separate Docker containers for:
+
+- React Frontend
+- ASP.NET Core Backend
+- SQL Server
+- Ollama runs on the host machine and is accessed by the backend container
+
+### Docker Architecture
+
+```text
+                        Host Machine
+                             │
+              ┌──────────────┴──────────────┐
+              │                             │
+         Ollama LLM                    Docker Engine
+       Llama 3.2                           │
+              │                            │
+              │                   ┌────────┴─────────┐
+              │                   │                  │
+              │              Frontend            Backend
+              │              Container           Container
+              │              :5173                :5244
+              │                   │                  │
+              │                   └────────┬─────────┘
+              │                            │
+              │                         SQL Server
+              │                         Container
+              │                            :14333
+              │
+              └── Backend accesses Ollama
+                  through host.docker.internal
+```
+
 ### Run Ollama
 
 Install Ollama and pull the Llama 3.2 model:
@@ -241,6 +279,8 @@ http://localhost:5244/swagger
 ```
 
 ---
+
+
 
 ## 👨‍💻 Author
 
