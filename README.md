@@ -396,8 +396,11 @@ docker ps
 ```
 
 Expected containers:
+
 enterprise-helpdesk-sql
+
 enterprise-helpdesk-api
+
 enterprise-helpdesk-frontend
 
 ### Clone the repository
