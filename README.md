@@ -197,7 +197,7 @@ EnterpriseAIHelpdesk
 
 ## ⚙️ Getting Started
 
-### 🐳 Docker Deployment
+## 🐳 Docker Deployment
 
 The Enterprise AI Helpdesk is containerized using Docker to provide a consistent and isolated environment for the application.
 
@@ -337,6 +337,9 @@ docker images
 docker run -d --name enterprise-helpdesk-api -p 5244:8080 enterprise-helpdesk-api
 ```
 
+Start it with:
+docker start enterprise-helpdesk-api
+
 The backend is now available at:
 http://localhost:5244
 
@@ -365,8 +368,32 @@ docker images
 docker run -d --name enterprise-helpdesk-frontend -p 5173:80 enterprise-helpdesk-frontend
 ```
 
+Start it with:
+docker start enterprise-helpdesk-frontend
+
 The frontend is available at:
 http://localhost:5173
+
+### SQL Server Container
+
+The SQL Server image used is:
+mcr.microsoft.com/mssql/server:2022-latest
+
+The existing SQL Server container is:
+enterprise-helpdesk-sql
+
+```bash
+docker run -d --name enterprise-helpdesk-sql --hostname enterprise-helpdesk-sql -e "ACCEPT_EULA=Y" -e "MYQL-SA-PASSWORD=YOUR_DB_PASSWORD" -p 14333:1433 -v Sqlserver-data:/var/opt/mssql mcr.microsoft.com/mssql/server:2022-latest
+```
+
+Start it with:
+docker start enterprise-helpdesk-sql
+
+Check all running containers:
+
+```bash
+docker ps
+```
 
 ### Clone the repository
 
