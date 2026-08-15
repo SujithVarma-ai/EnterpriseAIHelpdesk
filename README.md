@@ -120,7 +120,6 @@ EnterpriseAIHelpdesk
 ## 🚀 Future Roadmap
 
 - 📚 RAG Knowledge Assistant
-- 🐳 Docker
 - ☁️ Azure Deployment
 - 🚀 GitHub Actions CI/CD
 
