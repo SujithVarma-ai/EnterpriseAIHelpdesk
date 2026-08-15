@@ -323,6 +323,8 @@ From the project root:
 docker build -t enterprise-helpdesk-api -f EnterpriseAIHelpdesk.API/Dockerfile .
 ```
 
+This creates the Backend Docker image.
+
 Check the image:
 
 ```bash
@@ -333,6 +335,28 @@ docker images
 
 ```bash
 docker run -d --name enterprise-helpdesk-api -p 5244:8080 enterprise-helpdesk-api
+```
+
+The backend is now available at:
+http://localhost:5244
+
+Swagger:
+http://localhost:5244/swagger
+
+### Build the Frontend Image
+
+From the project root:
+
+```bash
+docker build -t enterprise-helpdesk-frontend -f frontend/dockerfile ./frontend
+```
+
+This creates the React frontend Docker image.
+
+Check the image:
+
+```bash
+docker images
 ```
 
 ### Clone the repository
