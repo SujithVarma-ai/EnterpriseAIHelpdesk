@@ -197,7 +197,7 @@ EnterpriseAIHelpdesk
 
 ## ⚙️ Getting Started
 
-## 🐳 Docker Deployment
+### 🐳 Docker Deployment
 
 The Enterprise AI Helpdesk is containerized using Docker to provide a consistent and isolated environment for the application.
 
@@ -282,6 +282,19 @@ http://localhost:5244
 
 Swagger
 http://localhost:5244/swagger
+
+### Start Frontend
+
+Open another terminal:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+The React frontend runs at:
+http://localhost:5173
 
 ### Clone the repository
 
