@@ -1,6 +1,7 @@
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
+using Microsoft.Extensions.Configuration;
 using EnterpriseAIHelpdesk.Application.Interfaces;
 using EnterpriseAIHelpdesk.Domain.Enums;
 
@@ -9,10 +10,12 @@ namespace EnterpriseAIHelpdesk.Infrastructure.AI;
 public class OllamaAIService : IAIService
 {
     private readonly HttpClient _httpClient;
+    private readonly IConfiguration _configuration;
 
-    public OllamaAIService(HttpClient httpClient)
+    public OllamaAIService(HttpClient httpClient, IConfiguration configuration)
     {
         _httpClient = httpClient;
+        _configuration = configuration;
     }
 
     private async Task<string> SendPromptAsync(string prompt)
@@ -25,9 +28,12 @@ public class OllamaAIService : IAIService
         };
 
         var json = JsonSerializer.Serialize(request);
+        var ollamaUrl = _configuration["Ollama:Url"];
 
         var response = await _httpClient.PostAsync(
-            "http://localhost:11434/api/generate",
+            $"{_configuration["Ollama:Url"]}/api/generate",
+            //"http://host.docker.internal:11434/api/generate",//With Docker
+            //"http://localhost:11434/api/generate",//Without Docker
             new StringContent(json, Encoding.UTF8, "application/json"));
 
         response.EnsureSuccessStatusCode();
