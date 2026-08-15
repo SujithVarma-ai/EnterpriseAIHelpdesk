@@ -246,6 +246,21 @@ EnterpriseAIHelpdesk
                   through host.docker.internal
 ```
 
+## Running the Application Without Docker
+
+```text
+                React Frontend
+                      │
+                      ▼
+              ASP.NET Core Backend
+                      │
+                      ▼
+                  SQL Server
+                      │
+                      ▼
+                    Ollama
+```
+
 ### Run Ollama
 
 Install Ollama and pull the Llama 3.2 model:
