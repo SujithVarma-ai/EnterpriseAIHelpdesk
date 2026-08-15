@@ -197,7 +197,6 @@ EnterpriseAIHelpdesk
 
 ## ⚙️ Getting Started
 
-
 ## 🐳 Docker Deployment
 
 The Enterprise AI Helpdesk is containerized using Docker to provide a consistent and isolated environment for the application.
@@ -208,6 +207,18 @@ The project uses separate Docker containers for:
 - ASP.NET Core Backend
 - SQL Server
 - Ollama runs on the host machine and is accessed by the backend container
+
+### Docker files
+
+EnterpriseAIHelpdesk
+│
+├── EnterpriseAIHelpdesk.API
+│   └── Dockerfile
+│
+├── frontend
+│   └── dockerfile
+│
+└── docker-compose.yml
 
 ### Docker Architecture
 
