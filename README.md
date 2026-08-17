@@ -403,7 +403,7 @@ enterprise-helpdesk-api
 
 enterprise-helpdesk-frontend
 
-### After creating Backend, Frontend and SQL images and containers run these commands in terminal to start the application
+### After creating Backend, Frontend, SQL images and containers run these commands in terminal to start the application
 
 ```bash
 docker start enterprise-helpdesk-sql
@@ -415,6 +415,20 @@ docker start enterprise-helpdesk-api
 
 ```bash
 docker start enterprise-helpdesk-frontend
+```
+
+### To stop the application run these commands
+
+```bash
+docker stop enterprise-helpdesk-sql
+```
+
+```bash
+docker stop enterprise-helpdesk-api
+```
+
+```bash
+docker stop enterprise-helpdesk-frontend
 ```
 
 ### Clone the repository
