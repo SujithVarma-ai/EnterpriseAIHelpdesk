@@ -440,10 +440,16 @@ Backend -> SQL
 
 Frontend -> Backend
 
-### Create Docker network
+### Create Docker Network
 
 ```bash
 docker network create enterprise-helpdesk-network
+```
+
+### Connect SQL Server to Docker Network
+
+```bash
+docker network connect enterprise-helpdesk-network enterprise-helpdesk-sql
 ```
 
 ### Clone the repository
