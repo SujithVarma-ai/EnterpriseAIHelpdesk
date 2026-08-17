@@ -458,6 +458,16 @@ docker network connect enterprise-helpdesk-network enterprise-helpdesk-sql
 docker network connect enterprise-helpdesk-network enterprise-helpdesk-api
 ```
 
+### We will remove the old API Container from Docker
+
+```bash
+docker stop enterprise-helpdesk-api
+```
+
+```bash
+docker rm enterprise-helpdesk-api
+```
+
 ### Clone the repository
 
 ```bash
