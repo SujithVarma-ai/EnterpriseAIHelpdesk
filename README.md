@@ -434,6 +434,9 @@ docker stop enterprise-helpdesk-frontend
 ## Docker Network
 
 Since the containers were created independently, we need to attach them to the same Docker network to enable communication via container names.
+So we need to connect them:
+Backend->SQL
+Frontend->Backend
 
 ### Clone the repository
 
