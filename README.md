@@ -452,6 +452,12 @@ docker network create enterprise-helpdesk-network
 docker network connect enterprise-helpdesk-network enterprise-helpdesk-sql
 ```
 
+### Connect Backend to Docker Network 
+
+```bash
+docker network connect enterprise-helpdesk-network enterprise-helpdesk-api
+```
+
 ### Clone the repository
 
 ```bash
