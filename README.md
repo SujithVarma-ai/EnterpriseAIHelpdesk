@@ -403,6 +403,20 @@ enterprise-helpdesk-api
 
 enterprise-helpdesk-frontend
 
+### After creating Backend, Frontend and SQL images and containers run these commands in terminal to start the application
+
+```bash
+docker start enterprise-helpdesk-sql
+```
+
+```bash
+docker start enterprise-helpdesk-api
+```
+
+```bash
+docker start enterprise-helpdesk-frontend
+```
+
 ### Clone the repository
 
 ```bash
