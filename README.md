@@ -431,6 +431,10 @@ docker stop enterprise-helpdesk-api
 docker stop enterprise-helpdesk-frontend
 ```
 
+## Docker Network
+
+Since the containers were created independently, we need to attach them to the same Docker network to enable communication via container names.
+
 ### Clone the repository
 
 ```bash
