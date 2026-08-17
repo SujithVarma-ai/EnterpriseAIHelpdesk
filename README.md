@@ -468,6 +468,15 @@ docker stop enterprise-helpdesk-api
 docker rm enterprise-helpdesk-api
 ```
 
+### Recreate new Backend Container (because we are connecting to SQL Server)
+
+docker run -d `
+  --name enterprise-helpdesk-api `
+  --network enterprise-helpdesk-network `
+  -p 5244:8080 `
+  -e "ConnectionStrings__DefaultConnection=Server=enterprise-helpdesk-sql,1433;Database=EnterpriseAIHelpdeskDB;User Id=HelpdeskApp;Password=YOUR_DB_PASSWORD;TrustServerCertificate=True;MultipleActiveResultSets=true" `
+  enterprise-helpdesk-api
+
 ### Clone the repository
 
 ```bash
