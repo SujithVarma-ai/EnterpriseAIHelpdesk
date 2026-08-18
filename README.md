@@ -503,6 +503,12 @@ fetch(`${API_URL}/Ticket`)
 
 So browser does : React UI -> http://localhost:5244/api -> Backend Docker
 
+Frontend Docker -> Browser -> localhost:5244 -> Backend Docker -> enterprise-helpdesk-sql:1433 -> SQL Server Docker
+
+With Docker(OllamaAIService.cs) :- "http://host.docker.internal:11434/api/generate"
+
+Without Docker :- "http://localhost:11434/api/generate"
+
 ### Clone the repository
 
 ```bash
