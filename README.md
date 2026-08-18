@@ -509,6 +509,8 @@ With Docker(OllamaAIService.cs) :- "http://host.docker.internal:11434/api/genera
 
 Without Docker :- "http://localhost:11434/api/generate"
 
+## Docker Compose
+
 ### Clone the repository
 
 ```bash
