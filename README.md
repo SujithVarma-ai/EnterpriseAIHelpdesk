@@ -511,6 +511,20 @@ Without Docker :- "http://localhost:11434/api/generate"
 
 ## Docker Compose
 
+Right now we have to start three containers separately
+
+```bash
+docker start enterprise-helpdesk-sql
+```
+
+```bash
+docker start enterprise-helpdesk-api
+```
+
+```bash
+docker start enterprise-helpdesk-frontend
+```
+
 ### Clone the repository
 
 ```bash
