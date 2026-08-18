@@ -525,6 +525,20 @@ docker start enterprise-helpdesk-api
 docker start enterprise-helpdesk-frontend
 ```
 
+With Docker Compose, we will define all of them in one docker-compose.yml
+
+Start whole application with:
+
+```bash
+docker compose up -d
+```
+
+Stop application with:
+
+```bash
+docker compose down
+```
+
 ### Clone the repository
 
 ```bash
