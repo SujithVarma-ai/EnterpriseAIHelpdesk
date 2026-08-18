@@ -493,6 +493,16 @@ enterprise-helpdesk-sql
 docker logs enterprise-helpdesk-api
 ```
 
+### Frontend to Backend Connection
+
+In api.js we already have 
+
+const API_URL="http://localhost:5244/api";
+
+fetch(`${API_URL}/Ticket`)
+
+So browser does : React UI -> http://localhost:5244/api -> Backend Docker
+
 ### Clone the repository
 
 ```bash
