@@ -545,6 +545,12 @@ docker compose down
 docker compose config
 ```
 
+### Start application
+
+```bash
+docker compose up -d
+```
+
 ### Clone the repository
 
 ```bash
