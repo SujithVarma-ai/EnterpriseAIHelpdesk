@@ -565,6 +565,12 @@ enterprise-helpdesk-api
 
 enterprise-helpdesk-frontend
 
+### Stop application
+
+```bash
+docker compose down
+```
+
 ### Clone the repository
 
 ```bash
