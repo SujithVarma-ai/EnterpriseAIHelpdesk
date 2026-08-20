@@ -539,6 +539,12 @@ Stop application with:
 docker compose down
 ```
 
+### Create a new file in EnterpriseAIHelp : docker-compose.yml
+
+```bash
+docker compose config
+```
+
 ### Clone the repository
 
 ```bash
