@@ -571,6 +571,20 @@ enterprise-helpdesk-frontend
 docker compose down
 ```
 
+## Note
+
+If container already exists
+
+### Start with
+
+```bash
+docker start enterprise-helpdesk-sql
+```
+
+```bash
+docker compose up -d
+```
+
 ### Clone the repository
 
 ```bash
