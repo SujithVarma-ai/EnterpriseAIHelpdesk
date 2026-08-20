@@ -585,6 +585,16 @@ docker start enterprise-helpdesk-sql
 docker compose up -d
 ```
 
+### Shutdown with
+
+```bash
+docker compose stop
+```
+
+```bash
+docker stop enterprise-helpdesk-sql
+```
+
 ### Clone the repository
 
 ```bash
