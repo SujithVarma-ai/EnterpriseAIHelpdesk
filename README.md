@@ -551,6 +551,20 @@ docker compose config
 docker compose up -d
 ```
 
+Creates and starts backend + frontend
+
+```bash
+docker ps
+```
+
+You should see :- 
+
+enterprise-helpdesk-sql
+
+enterprise-helpdesk-api
+
+enterprise-helpdesk-frontend
+
 ### Clone the repository
 
 ```bash
