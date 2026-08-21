@@ -205,7 +205,6 @@ The project uses separate Docker containers for:
 - React Frontend
 - ASP.NET Core Backend
 - SQL Server
-- Ollama runs on the host machine and is accessed by the backend container
 
 ### Docker files
 
