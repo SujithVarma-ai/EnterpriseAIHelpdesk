@@ -27,7 +27,7 @@ This project is built using **Clean Architecture** and demonstrates enterprise-l
 - AI-powered Ticket Category Prediction
 - AI-powered Ticket Priority Prediction
 - AI-generated Ticket Summary
-- Ollama Local LLM Integration
+- Google Gemini AI Integration
 
 ### 💬 Comments
 - Add Comments to Tickets
