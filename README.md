@@ -225,8 +225,8 @@ EnterpriseAIHelpdesk
                              │
               ┌──────────────┴──────────────┐
               │                             │
-         Ollama LLM                    Docker Engine
-       Llama 3.2                           │
+         Google Gemini                  Docker Engine
+                                  │
               │                            │
               │                   ┌────────┴─────────┐
               │                   │                  │
