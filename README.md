@@ -262,15 +262,17 @@ EnterpriseAIHelpdesk
                     Google Gemini
 ```
 
-### Start Ollama
+### Configure Google Gemini
 
-Make sure Ollama is installed and the Llama 3.2 model is available:
+The AI features in this project use the **Google Gemini API**.
 
-```bash
-ollama pull llama3.2
+Configure your Gemini API key in your application settings or environment variables before running the application.
+
+Example:
+
+```text
+GEMINI_API_KEY=your_gemini_api_key
 ```
-
-Start Ollama if it is not already running.
 
 ### Start Backend
 
