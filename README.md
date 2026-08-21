@@ -221,27 +221,30 @@ EnterpriseAIHelpdesk
 ### Docker Architecture
 
 ```text
-                        Host Machine
-                             │
-              ┌──────────────┴──────────────┐
+                    Host Machine
+                         │
+              ┌──────────┴──────────┐
+              │                     │
+        Google Gemini API       Docker Engine
+              │                     │
+              │              ┌──────┴──────┐
+              │              │             │
+              │         Frontend        Backend
+              │         Container       Container
+              │         :5173           :5244
               │                             │
-         Google Gemini                  Docker Engine
-                                  │
-              │                            │
-              │                   ┌────────┴─────────┐
-              │                   │                  │
-              │              Frontend            Backend
-              │              Container           Container
-              │              :5173                :5244
-              │                   │                  │
-              │                   └────────┬─────────┘
-              │                            │
-              │                         SQL Server
-              │                         Container
-              │                            :14333
-              │
-              └── Backend accesses Ollama
-                  through host.docker.internal
+              │                             │
+              └──────── Backend calls Gemini API
+                         │
+                         ▼
+                    Internet
+                         
+                    Backend
+                       │
+                       ▼
+                 SQL Server
+                  Container
+                    :14333
 ```
 
 # Running the Application Without Docker
@@ -256,7 +259,7 @@ EnterpriseAIHelpdesk
                   SQL Server
                       │
                       ▼
-                    Ollama
+                    Google Gemini
 ```
 
 ### Start Ollama
