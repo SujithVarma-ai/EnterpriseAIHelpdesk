@@ -1,6 +1,6 @@
 # 🚀 Enterprise AI Helpdesk & Incident Management System
 
-An AI-powered enterprise helpdesk platform that automates ticket management using **ASP.NET Core**, **SQL Server**, and **Ollama LLM**.
+An AI-powered enterprise helpdesk platform that automates ticket management using ASP.NET Core, SQL Server, and Google Gemini.
 
 This project is built using **Clean Architecture** and demonstrates enterprise-level backend development with authentication, authorization, AI-powered ticket processing, and modern software engineering practices.
 
