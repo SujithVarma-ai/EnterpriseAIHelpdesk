@@ -46,10 +46,10 @@ This project is built using **Clean Architecture** and demonstrates enterprise-l
                          │
           ┌──────────────┼──────────────┐
           ▼              ▼              ▼
-     SQL Server      Ollama AI      JWT Auth
-          │              │
-          ▼              ▼
-   Entity Framework   Llama 3.2
+     SQL Server      Google Gemini      JWT Auth
+          │              
+          ▼              
+   Entity Framework   
           Core
 ```
 
