@@ -91,8 +91,7 @@ EnterpriseAIHelpdesk
 - Role-Based Authorization
 
 ### AI
-- Ollama
-- Llama 3.2
+- Google Gemini
 
 ### Development Tools
 - Visual Studio 2022
