@@ -8,7 +8,7 @@ services:
     ports:
       - "5244:8080"
     environment:
-      ConnectionStrings__DefaultConnection: "Server=enterprise-helpdesk-sql,1433;Database=EnterpriseAIHelpdeskDB;User Id=HelpdeskApp;Password=YOUR_DB_PASSWORD;TrustServerCertificate=True;MultipleActiveResultSets=true"
+      ConnectionStrings__DefaultConnection: "Server=enterprise-helpdesk-sql,1433;Database=EnterpriseAIHelpdeskDB;User Id=HelpdeskApp;Password=Sujith_123;TrustServerCertificate=True;MultipleActiveResultSets=true"
       Ollama__Url: "http://host.docker.internal:11434"
     networks:
       - enterprise-helpdesk-network
